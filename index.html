@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+
+        <form action="">
+            <div id="ad">
+                <input type="text" name="adicao" id="val1"   minlength="1" maxlength="5"> <input type="button" value="+"> <input type="text" name="adicao" id="val2"   minlength="1" maxlength="5"> <input type="button" value="=" onclick="adicionar()"> <input type="text" name="resultado" id="resultado">
+            </div>
+
+            <div id="sub">
+                <input type="text" name="sub" id="val3" minlength="1" maxlength="5"> <input type="button" value="-"> <input type="text" name="subtracao" id="val4" minlength="1" maxlength="5"> <input type="button" value="=" onclick="subtrair()"> <input type="text" name="resultado" id="resultado2">
+            </div>
+
+            <div id="mult">
+                <input type="text" name="mult" id="val5" minlength="1" maxlength="5"> <input type="button" value="*"> <input type="text" name="mult" id="val6" minlength="1" maxlength="5"> <input type="button" value="=" onclick="multiplicar()"> <input type="text" name="resultado" id="resultado3">
+            </div>
+
+            <div id="div">
+                <input type="text" name="div" id="val7" minlength="1" maxlength="5"> <input type="button" value="/"> <input type="text" name="div" id="val8" minlength="1" maxlength="5"> <input type="button" value="=" onclick="divisao()"> <input type="text" name="resultado" id="resultado4">
+            </div>
+        </form>
+    </header>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

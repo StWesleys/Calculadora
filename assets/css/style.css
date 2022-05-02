@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 20px;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 8px;
+
+    text-align: center;
+
+    padding: 8px;
+    width: 50px;
+}
+
+input[type="text"]:last-child{
+    width: 80px;
+}
+
+input[type="button"]{
+    margin-bottom: 15px;
+    border: 1px solid #787878;
+    background-color: #787878;
+    color: white;
+    border-radius: 8px;
+
+    text-align: center;
+
+    padding: 5px;
+    width: 50px;
+}
+
+input[type="button"]:nth-of-type(4):hover{
+    background-color: #666666;
+    cursor: pointer;
+}
