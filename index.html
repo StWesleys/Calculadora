@@ -9,23 +9,23 @@
 </head>
 <body>
     <header>
-        <h1>Calculadora</h1>
-
+        <h1>- Calculadora -</h1>
+        <p>Digite os valores no primeiro e no segundo espaço vazio, depois, clique em <span>=</span> para que o resultado seja impresso em "Resultado".</p>
         <form action="">
             <div id="ad">
-                <input type="text" name="adicao" id="val1"   minlength="1" maxlength="5"> <input type="button" value="+"> <input type="text" name="adicao" id="val2"   minlength="1" maxlength="5"> <input type="button" value="=" onclick="adicionar()"> <input type="text" name="resultado" id="resultado">
+                <input type="text" name="adicao" id="val1"   minlength="1" maxlength="5" placeholder=""> <input type="button" value="+"> <input type="text" name="adicao" id="val2"   minlength="1" maxlength="5"> <input type="button" value="=" onclick="adicionar()"> <input type="text" name="resultado" id="resultado" placeholder="Resultado">
             </div>
 
             <div id="sub">
-                <input type="text" name="sub" id="val3" minlength="1" maxlength="5"> <input type="button" value="-"> <input type="text" name="subtracao" id="val4" minlength="1" maxlength="5"> <input type="button" value="=" onclick="subtrair()"> <input type="text" name="resultado" id="resultado2">
+                <input type="text" name="sub" id="val3" minlength="1" maxlength="5"> <input type="button" value="-"> <input type="text" name="subtracao" id="val4" minlength="1" maxlength="5"> <input type="button" value="=" onclick="subtrair()"> <input type="text" name="resultado" id="resultado2" placeholder="Resultado">
             </div>
 
             <div id="mult">
-                <input type="text" name="mult" id="val5" minlength="1" maxlength="5"> <input type="button" value="*"> <input type="text" name="mult" id="val6" minlength="1" maxlength="5"> <input type="button" value="=" onclick="multiplicar()"> <input type="text" name="resultado" id="resultado3">
+                <input type="text" name="mult" id="val5" minlength="1" maxlength="5"> <input type="button" value="*"> <input type="text" name="mult" id="val6" minlength="1" maxlength="5"> <input type="button" value="=" onclick="multiplicar()"> <input type="text" name="resultado" id="resultado3" placeholder="Resultado">
             </div>
 
             <div id="div">
-                <input type="text" name="div" id="val7" minlength="1" maxlength="5"> <input type="button" value="/"> <input type="text" name="div" id="val8" minlength="1" maxlength="5"> <input type="button" value="=" onclick="divisao()"> <input type="text" name="resultado" id="resultado4">
+                <input type="text" name="div" id="val7" minlength="1" maxlength="5"> <input type="button" value="/"> <input type="text" name="div" id="val8" minlength="1" maxlength="5"> <input type="button" value="=" onclick="divisao()"> <input type="text" name="resultado" id="resultado4" placeholder="Resultado">
             </div>
         </form>
     </header>
