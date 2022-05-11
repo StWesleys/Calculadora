@@ -23,6 +23,7 @@ h1{
 p{
     margin-bottom: 22px;
     color: #313131;
+    text-align: center;
 }
 
 span{
@@ -63,5 +64,8 @@ input[type="button"]{
 
 input[type="button"]:nth-of-type(4):hover{
     background-color: #666666;
+    border: 1px solid #666666;
+    color: red;
     cursor: pointer;
+    transition: ease-in-out .5s;
 }
